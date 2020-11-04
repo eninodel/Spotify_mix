@@ -15,7 +15,9 @@ def get_artist_albums( artist_list, token):
 
 
         try:
-            item = response.json()['items']
+            itema = response.json()
+
+            item = itema['items']
 
             for i in item:
 
