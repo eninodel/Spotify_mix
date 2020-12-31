@@ -2,3 +2,5 @@
 spotify_mix.py
 trash.py
 __pycache__
+.vscode/
+.vscode
